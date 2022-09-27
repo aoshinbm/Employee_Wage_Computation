@@ -25,6 +25,7 @@ public class Emp_MonthlyWages {
                 break;
             case 3:System.out.println("Employee is ABSENT");
                 System.out.println("ABSENT : NO Wage");
+                break;
             default:
                 System.out.println("Invalid input...!!!!-----");
         }

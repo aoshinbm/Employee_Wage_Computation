@@ -20,6 +20,7 @@ public class Emp_Wage {
                 break;
             case 3:System.out.println("Employee is ABSENT");
                 System.out.println("ABSENT : NO Wage");
+                break;
             default:
                 System.out.println("Invalid input...!!!!-----");
         }
