@@ -7,6 +7,7 @@ public class Emp {
 
     static void fullTime(){
         System.out.println("Employee is working FULL-Time");
+        System.out.println("Enter wage:");
         wage = wage_per_hr * full_day;
         daily++;
         workhr++;
@@ -16,6 +17,7 @@ public class Emp {
     }
     static void partTime(){
         System.out.println("Employee is working PART-Time");
+        System.out.println("Enter wage:");
         wage = wage_per_hr * part_time;
         daily++;
         workhr++;
