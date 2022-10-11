@@ -5,13 +5,8 @@ public class UC9_EmpWageBuider {
     int part_time = 2;
     String company;
     static int wage_per_hr;
-
     int workingdays;
     int hrpermonth;
-    //workhr = 1;
-    static int wage = 0, total = 0;
-    static int total_work_hr;
-    static int full_day = 12;
 
     public UC9_EmpWageBuider(String company, int wage_per_hr, int workingdays, int hrpermonth) {
         this.company = company;
